@@ -16,7 +16,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>McDONALD'S</v-toolbar-title>
+      <v-toolbar-title>AGfast-food</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -36,7 +36,7 @@
         <v-list-item-avatar>
           <v-img src="@/assets/macdonal-logo.png" justify="center"></v-img>
         </v-list-item-avatar>
-           <p class="white--text mt-3 headline" align="center">McDONALD'S</p>
+           <p class="white--text mt-3 headline" align="center">AGfast-food</p>
               <v-btn color="info" block :to="{name:'menu'}" class=ml-1>Menu</v-btn>
               <v-btn color="info" block :to="{name:'restaurante'}" class=ml-1>Restaurante</v-btn>
               <v-btn color="info" block :to="{name:'familia'}" class=ml-1>Familia</v-btn>
